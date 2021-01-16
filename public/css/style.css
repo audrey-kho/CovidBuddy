@@ -99,7 +99,7 @@ div > input {
 }
 
 .dec-height {
-  line-height: 40%;
+  margin: 5px;
 }
 
 #orgs {

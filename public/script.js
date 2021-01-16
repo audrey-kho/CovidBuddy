@@ -7,15 +7,22 @@
    */
   function init() {
     id("donate-btn").addEventListener("click", donate)
-    id("submit-btn").addEventListener("click", ty)
+    id("submit-btn").addEventListener("click", donateRes)
   }
 
   function donate() {
     window.location = "donate.html"
   }
 
-  function ty() {
-    alert("Thank you for your donation!");
+  function donateRes() {
+    let donation = parseFloat(id("donation-amt").value)
+    if (donation > 0 && donation <= 6.50) {
+      alert("You have donated $" + donation + " Thank you for your donation!");
+    } else if (donation > 6.50) {
+      alert("ERROR: Sorry you don't have enough points to make a donation of $" + donation);
+    } else {
+      alert("ERROR: Input invalid. Please try again.");
+    }
   }
 
   /** ------------------------------ Helper Functions  ------------------------------ */
