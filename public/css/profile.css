@@ -131,6 +131,11 @@ article img {
   margin-bottom: 20px;
 }
 
+.summary {
+  width: 500px;
+  height: 280px;
+}
+
 footer {
   margin-top: 100px;
   margin-bottom: 80px;
