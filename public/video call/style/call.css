@@ -16,6 +16,13 @@
   top: 5vw;
 }
 
-.inline {
-  display: inline;
+#agora {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.h-5 {
+  margin-top: 10px;
+  margin-left: 6px;
+  margin-right: 20px;
 }

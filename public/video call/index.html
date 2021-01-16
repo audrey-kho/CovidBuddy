@@ -3,22 +3,25 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>CovidBuddy Group Call</title>
+        <title>Login</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style/main.css">
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.1.2/tailwind.min.css'>
+        <link href="../img/favicon.png" type="image/gif" rel="shortcut icon">
         <script src="https://cdn.agora.io/sdk/release/AgoraRTCSDK-3.1.0.js"></script>
       </head>
 
     <body>
         <div class="h-screen flex justify-center items-center">
             <div class="w-full max-w-xs bg-white flex flex-col py-5 px-8 rounded-lg shadow-lg">
-                <div class="block m-auto"><img src="https://www.agora.io/en/wp-content/uploads/2019/06/agoralightblue-1.png" class="h-4"></div>
+              <div class="block mx-auto w-48 py-4">
+                <img src="../img/logo.png" alt="CovidBuddy logo">
+              </div>
                 <label class="text-gray-700 font-bold py-2" for="">Username</label>
-                <input id="username" class="text-gray-700 shadow border rounded border-gray-300 focus:outline-none focus:shadow-outline py-1 px-3 mb-3" type="text" placeholder="John Doe" required>
+                <input id="username" class="text-gray-700 shadow border rounded border-gray-300 focus:outline-none focus:shadow-outline py-1 px-3 mb-3" type="text" placeholder="Name" required>
                 <label class="text-gray-700 font-bold py-2" for="">Channel Name</label>
-                <input id = "channelName" class="text-gray-700 shadow border rounded border-gray-300 mb-3 py-1 px-3 focus:outline-none focus:shadow-outline" type="text" placeholder="test" required>
+                <input id = "channelName" class="text-gray-700 shadow border rounded border-gray-300 mb-3 py-1 px-3 focus:outline-none focus:shadow-outline" type="text" placeholder="channel" required>
                 <div class="flex items-center my-4 block m-auto ">
                   <button id="submit_btn" class="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded py-2 px-10" onclick="saveToLocalStorage()">
                     Join Call
@@ -38,6 +41,5 @@
                 </div>
               </div>
         </div>
-
     </body>
 </html>
