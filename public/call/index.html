@@ -14,32 +14,32 @@
 
     <body>
         <div class="h-screen flex justify-center items-center">
-            <div class="w-full max-w-xs bg-white flex flex-col py-5 px-8 rounded-lg shadow-lg">
-              <div class="block mx-auto w-48 py-4">
-                <img src="../img/logo.png" alt="CovidBuddy logo">
-              </div>
-                <label class="text-gray-700 font-bold py-2" for="">Username</label>
-                <input id="username" class="text-gray-700 shadow border rounded border-gray-300 focus:outline-none focus:shadow-outline py-1 px-3 mb-3" type="text" placeholder="Name" required>
-                <label class="text-gray-700 font-bold py-2" for="">Channel Name</label>
-                <input id = "channelName" class="text-gray-700 shadow border rounded border-gray-300 mb-3 py-1 px-3 focus:outline-none focus:shadow-outline" type="text" placeholder="channel" required>
-                <div class="flex items-center my-4 block m-auto ">
-                  <button id="submit_btn" class="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded py-2 px-10" onclick="saveToLocalStorage()">
-                    Join Call
-                  </button>
+          <div class="w-full max-w-xs bg-white flex flex-col py-5 px-8 rounded-lg shadow-lg">
+            <div class="block mx-auto w-48 py-4">
+              <img src="../img/logo.png" alt="CovidBuddy logo">
+            </div>
+            <label class="text-gray-700 font-bold py-2" for="">Username</label>
+            <input id="username" class="text-gray-700 shadow border rounded border-gray-300 focus:outline-none focus:shadow-outline py-1 px-3 mb-3" type="text" placeholder="Name" required>
+            <label class="text-gray-700 font-bold py-2" for="">Channel Name</label>
+            <input id = "channelName" class="text-gray-700 shadow border rounded border-gray-300 mb-3 py-1 px-3 focus:outline-none focus:shadow-outline" type="text" placeholder="channel" required>
+            <div class="flex items-center my-4 block m-auto ">
+              <button id="submit_btn" class="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded py-2 px-10" onclick="saveToLocalStorage()">
+                Join Call
+              </button>
 
-                  <script>
-                    function saveToLocalStorage() {
-                      var username = document.getElementById("username").value;
-                      var channelName = document.getElementById("channelName").value;
+              <script>
+                function saveToLocalStorage() {
+                  var username = document.getElementById("username").value;
+                  var channelName = document.getElementById("channelName").value;
 
-                      localStorage.setItem("username", username);
-                      localStorage.setItem("channelName", channelName);
+                  localStorage.setItem("username", username);
+                  localStorage.setItem("channelName", channelName);
 
-                      window.location.href = 'pages/callpage.html';
-                    }
-                  </script>
-                </div>
-              </div>
+                  window.location.href = 'pages/callpage.html';
+                }
+              </script>
+            </div>
+          </div>
         </div>
     </body>
 </html>
