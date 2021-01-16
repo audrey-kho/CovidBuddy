@@ -1,0 +1,72 @@
+body {
+  font-size: 16px;
+  font-family: "Roboto Slab", sans-serif;
+  background-color: rgb(255, 250, 234);
+  color: rgb(21, 48, 37);
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  line-height: 28px;
+}
+
+#page-body {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  padding-bottom: 20px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.active {
+  border-bottom: solid 0.5px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+a:hover, #sidebar a:hover {
+  color: rgb(18, 214, 204) !important;
+}
+
+.fixed {
+  position: fixed;
+}
+
+#sidebar {
+  padding-bottom: 180px;
+}
+
+#sidebar > a, #sidebar div {
+  font-size: 18px;
+  line-height: 160%;
+  transform: scale(1, 0.95);
+  display: block;
+}
+
+#sidebar div {
+  margin-bottom: 225%;
+}
+
+#content {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+footer {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+footer p {
+  position: relative;
+  opacity: 0.6;
+  font-weight: 500;
+}
