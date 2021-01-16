@@ -7,18 +7,22 @@
    */
   function init() {
     id("donate-btn").addEventListener("click", donate)
-    id("video-call").addEventListener("click", () => window.open("call/index.html"))
+    id("submit-btn").addEventListener("click", donateRes)
   }
 
   function donate() {
     window.location = "donate.html"
   }
 
-  function change() {
-    var img1 = "./img/star.png";
-    var img2 = "./img/favorited.png";
-    var imgElement = document.getElementById('fave');
-    imgElement.src = (imgElement.src === img1)? img2 : img1;
+  function donateRes() {
+    let donation = parseFloat(id("donation-amt").value)
+    if (donation > 0 && donation <= 6.50) {
+      alert("You have donated $" + donation + " Thank you for your donation!");
+    } else if (donation > 6.50) {
+      alert("ERROR: Sorry you don't have enough points to make a donation of $" + donation);
+    } else {
+      alert("ERROR: Input invalid. Please try again.");
+    }
   }
 
   /** ------------------------------ Helper Functions  ------------------------------ */
