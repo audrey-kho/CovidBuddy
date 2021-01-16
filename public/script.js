@@ -7,6 +7,7 @@
    */
   function init() {
     id("donate-btn").addEventListener("click", donate)
+    id("chat").addEventListener("click", () => window.open("chat.html"))
     id("video-call").addEventListener("click", () => window.open("call/index.html"))
   }
 
@@ -23,24 +24,6 @@
    */
   function id(idName) {
     return document.getElementById(idName);
-  }
-
-  /**
-   * Returns the first element that matches the given CSS selector.
-   * @param {string} selector - CSS query selector.
-   * @returns {object} The first DOM object matching the query.
-   */
-  function qs(selector) {
-    return document.querySelector(selector);
-  }
-
-  /**
-   * Returns a new element with the given tag name.
-   * @param {string} tagName - HTML tag name for new DOM element.
-   * @returns {object} New DOM object for given HTML tag.
-   */
-  function gen(tagName) {
-    return document.createElement(tagName);
   }
 
 })();
