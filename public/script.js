@@ -14,13 +14,6 @@
     window.location = "donate.html"
   }
 
-  function change() {
-    var img1 = "./img/star.png";
-    var img2 = "./img/favorited.png";
-    var imgElement = document.getElementById('fave');
-    imgElement.src = (imgElement.src === img1)? img2 : img1;
-  }
-
   /** ------------------------------ Helper Functions  ------------------------------ */
 
   /**

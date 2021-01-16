@@ -102,9 +102,24 @@ button:hover, .button:hover {
   margin-right: 5%;
 }
 
+.avatar {
+  width: 120px;
+  height: 120px;
+}
+
 h1 {
   font-size: 45px;
   margin: 0;
+}
+
+article img {
+  display: block;
+  margin: auto;
+}
+
+.update-pic {
+  text-align: center;
+  text-decoration: underline;
 }
 
 .card {
