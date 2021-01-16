@@ -158,6 +158,68 @@ footer p {
  }
 
  #rect {
-   background-color: #C8D5B9;
-   ;
- }
+  background-color: #C8D5B9;
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: -1px 1px 3px rgb(173, 173, 173);
+  margin-right: 20px;
+  margin-left: 20px;
+  display: inline-block;
+}
+ 
+#rect1 {
+ background-color: #C8D5B9;
+ width: 100px;
+ height: auto;
+ border-radius: 20px;
+ box-shadow: -1px 1px 3px rgb(173, 173, 173);
+ margin-right: 20px;
+ margin-left: 20px;
+ display: inline-block;
+}
+ 
+#rect3 {
+ background-color: #C8D5B9;
+ width: 300px;
+ height: auto;
+ border-radius: 20px;
+ box-shadow: -1px 1px 3px rgb(173, 173, 173);
+ margin-right: 20px;
+ margin-left: 20px;
+ display: inline-block;
+}
+ 
+#rect4 {
+ background-color: #C8D5B9;
+ width: 400px;
+ height: auto;
+ border-radius: 20px;
+ box-shadow: -1px 1px 3px rgb(173, 173, 173);
+ margin-right: 20px;
+ margin-left: 20px;
+ display: inline-block;
+}
+ 
+#rect5 {
+ background-color: #C8D5B9;
+ width: 500px;
+ height: auto;
+ border-radius: 20px;
+ box-shadow: -1px 1px 3px rgb(173, 173, 173);
+ margin-right: 20px;
+ margin-left: 20px;
+ display: inline-block;
+}
+#Yesterday {
+  text-align: right;
+}
+#right {
+ text-align: right;
+ color: #4A7C59;
+}
+ 
+#right_red {
+ color: red;
+ text-align: right
+}
