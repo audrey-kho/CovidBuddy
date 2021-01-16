@@ -98,7 +98,7 @@ button:hover, .button:hover {
 }
 
 #content {
-  margin-left: 15%;
+  margin-left: 20%;
   margin-right: 5%;
 }
 
@@ -114,7 +114,6 @@ h1 {
   border-radius: 20px;
   box-shadow: -1px 1px 5px rgb(173, 173, 173);
   margin-bottom: 20px;
-  margin-right: 20px;
 }
 
 footer {
@@ -128,7 +127,7 @@ footer p {
 }
 
 .card_profile {
-  width: 600px;
+  width: 700px;
   height: auto;
   background-color: white;
   border-radius: 20px;
