@@ -101,7 +101,7 @@ button:hover, .button:hover {
   width: 850px;
   margin-left: 20%;
   margin-right: 5%;
-  padding: 20px;
+  padding: 20px 40px 20px 50px;
   background-color: white;
   border-radius: 20px;
   box-shadow: -1px 1px 5px rgb(173, 173, 173);
@@ -119,11 +119,17 @@ article {
 .profile-pic {
   width: 60px;
   height: 60px;
-  margin: 25px;
+  margin-right: 32px;
+}
+
+.icons {
+  display: block;
+  margin-left: auto;
 }
 
 .icon {
   margin: 5px;
+  margin-right: 35px;
   width: 45px;
   height: 45px;
 }
