@@ -102,6 +102,11 @@ button:hover, .button:hover {
   margin-right: 5%;
 }
 
+h1 {
+  font-size: 45px;
+  margin: 0;
+}
+
 .card {
   width: 300px;
   height: auto;
@@ -130,11 +135,5 @@ footer p {
   box-shadow: -1px 1px 5px rgb(173, 173, 173);
   margin-bottom: 20px;
   margin-right: 20px;
-  position: absolute;
+  padding: 25px;
  }
-  
- .card_profile h3 {
-  padding-left: 10px;
-  padding-right: 10px;
- }
- 
