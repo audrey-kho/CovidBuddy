@@ -5,13 +5,13 @@ A social networking and productivity web application that allows you to earn poi
 [Click here](https://www.figma.com/proto/XJtOGbXnm0DWtOBVdmiIyC/hackathon-2021?node-id=3%3A12&scaling=scale-down-width) to view our website prototype!
 
 ## Product Description:
-	We are CovidBuddy, a web application seeking to help fund institutions at the center of the pandemic by encouraging social productivity. While brainstorming for the theme Hacking Forward, the idea of creating a platform to help keep days happier while still keeping progress with our pre-covid goals emerged. Thus was CovidBuddy created, in hopes of helping users stay productive but still keep in touch with loved ones.
+We are CovidBuddy, a web application seeking to help fund institutions at the center of the pandemic by encouraging social productivity. While brainstorming for the theme Hacking Forward, the idea of creating a platform to help keep days happier while still keeping progress with our pre-covid goals emerged. Thus was CovidBuddy created, in hopes of helping users stay productive but still keep in touch with loved ones.
 
 
 ## Frequently Asked Questions (FAQs):
 
 **Q:** How does the point system work?  
-**A:** You earn points by completing tasks on our website. Linking with a new friend gives you 5 points, video calling a friend for 10 minutes gives you 5 points, checking a to-do item gives you 1 point. If a friend verifies that you’ve completed a to-do item, you earn 10 points! The points can later be translated to donations to charities or just stored in your account. 
+**A:** You earn points by completing tasks on our website. Linking with a new friend gives you 5 points, video calling a friend for 10 minutes gives you 5 points, checking a to-do item gives you 1 point. If a friend verifies that you’ve completed a to-do item, you earn 10 points! The points can later be translated to donations to charities or just stored in your account.
 
 **Q:** Do I have to make a donation?
 **A:** No! You can either choose to use points for donation or simply collect those points and receive a weekly productivity statistical report!
