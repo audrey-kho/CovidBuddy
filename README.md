@@ -10,8 +10,7 @@ We are CovidBuddy, a web application seeking to help fund institutions at the ce
 
 ## Frequently Asked Questions (FAQs):
 
-**Q:** How does the point system work?
-
+**Q:** How does the point system work?  
 **A:** You earn points by completing tasks on our website. Linking with a new friend gives you 5 points, video calling a friend for 10 minutes gives you 5 points, checking a to-do item gives you 1 point. If a friend verifies that you’ve completed a to-do item, you earn 10 points! The points can later be translated to donations to charities or just stored in your account.
 
 **Q:** Do I have to make a donation?  
