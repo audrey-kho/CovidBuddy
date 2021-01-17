@@ -10,7 +10,12 @@
    */
   function init() {
     id("add").addEventListener("click", newList);
-    id("donate-btn").addEventListener("click", donate)
+    id("donate-btn").addEventListener("click", donate);
+    id("fab-btn").addEventListener("click", friends)
+  }
+
+  function friends() {
+    window.location = "friends.html";
   }
 
   /**
