@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <link href="img/favicon.png" type="image/gif" rel="shortcut icon">
+    <script src="script.js"></script>
     <title>Direct Message</title>
 </head>
 <body>
@@ -20,46 +21,44 @@
       <div>
         <a href="profile.html" id="show-profile">Profile</a> <br>
         <a href="productivity.html" id="show-lists">Productivity</a> <br>
-        <a href="friends.html" id="show-friends">Let's Link!</a>
+        <a href="friends.html" id="show-friends" class="active">Let's Link!</a>
       </div>
     </nav>
     <section id="content">
-      <strong style="font-size:20pt; margin-left: 20px;">Friends:</strong>
-      <hr/>
-      <article class="card"></article>
-      </article>
-      <table>
+      <div class="friends-list"><table>
+        <h2>Online (9)</h2>
+        <hr/>
         <tbody>
           <tr>
             <th><img class="profile-pic" src="img/dp.png" alt="profile picture"></th>
-            <td>Chester Coffey</td>
+            <td><strong>Milli Bell</strong></td>
           </tr>
-   
+
           <tr>
             <th><img class="profile-pic" src="img/dp.png" alt="profile picture"></th>
             <td>Aaron Shepard</td>
           </tr>
-      
+
           <tr>
             <th><img class="profile-pic" src="img/dp.png" alt="profile picture"></th>
             <td>Dillan Woodley</td>
           </tr>
-      
+
           <tr>
             <th><img class="profile-pic" src="img/dp.png" alt="profile picture"></th>
             <td>Gab Rodriguez</td>
           </tr>
-      
+
           <tr>
             <th><img class="profile-pic" src="img/dp.png" alt="profile picture"></th>
             <td>Mason Black</td>
           </tr>
-      
+
           <tr>
             <th><img class="profile-pic" src="img/dp.png" alt="profile picture"></th>
             <td>Charlie Brown</td>
           </tr>
-      
+
           <tr>
             <th><img class="profile-pic" src="img/dp.png" alt="profile picture"></th>
             <td>Suzie Powell</td>
@@ -69,30 +68,31 @@
             <th><img class="profile-pic" src="img/dp.png" alt="profile picture"></th>
             <td>Thomas Newmann</td>
           </tr>
-      
+
           <tr>
             <th><img class="profile-pic" src="img/dp.png" alt="profile picture"></th>
             <td>Blu de la Cruz</td>
           </tr>
         </tbody>
-      </table>
-    </section>
-    <section id="content_chatbox">
-        <img src="img/favicon.png" alt="CovidBuddy logo" style="margin-left:10px">
-        <strong id="chatbox">CovidBuddy</strong>
-        <hr/>
-
-        <div style="margin-top: 30px" id="rect"><center style="padding: 5px">You and Charlie Brown both accepted the invitation, 
-          you have connected with your new friend, Charlie!
-        </center></div>
-        <div style="margin-top: 30px" id="rect"><center style="padding: 5px">
-          Check out Charlie's profile here: <u>covidbuddy.com/charliebrown2</u>
-        </center></div>
-        <br/><br/><br/><br/><br/><br/>
-        <hr/>
-        
-        <div id="rect"><p style="padding-left: 10px;color: #636363"> <img src="img/avatar.png" alt="Avatar" class="avatar">
-          &nbsp&nbsp&nbspReply<img src="img/sent.png" alt="sent icon" align="right" style="margin-right:10px" class="avatar"></p></div>
+      </table></div>
+      <section id="content_chatbox">
+        <div class="user-info">
+          <img class="milli-dp" src="img/dp.png" alt="profile">
+          <p id="milli-head"><strong>Milli Bell</strong></p>
+        </div>
+        <article class="chat-bubble" id="milli">
+          <p>You have accepted Milli's friend request! <u>Say hi!</u></p>
+        </article>
+        <article class="chat-bubble" id="user">
+          <p>Hey Milli! :)</p>
+        </article>
+        <article id="text-in">
+          <form id="chat-input">
+            <input id="textbox" placeholder="Aa">
+            <input id="submit-btn" type="submit" value="Send" class="button">
+          </form>
+        </article>
+      </section>
     </section>
   </section>
   <footer>
