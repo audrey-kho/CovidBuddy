@@ -7,8 +7,6 @@
    */
   function init() {
     id("donate-btn").addEventListener("click", donate)
-    id("chat").addEventListener("click", () => window.location ="chat.html")
-    id("video-call").addEventListener("click", () => window.open("call/index.html"))
   }
 
   function donate() {
