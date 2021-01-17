@@ -1,7 +1,7 @@
 # CovidBuddy
 A social networking and productivity web application that allows you to earn points towards donating to an organization highly impacted by the pandemic.
 
-## Important Note
+>:warning: **NOTE:**
 This web app uses **LiterallyCanvas**, an embedded drawing widget intended to function as a shared whiteboard for users to utilize in their work during video calls. Some of its packages and tools have become outdated and as a result, the drawing widget does not function on the deployed prototype. To view the prototype as intended, kindly `git clone` this repo and open the `index.html` file located in the `/public` folder.
 
 ## Working Prototypes
