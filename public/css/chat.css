@@ -150,15 +150,9 @@ footer p {
   margin-right: 20px;
 }
 
-#chatbox {
-  padding-top: 20px;
-  font-size: 20pt; 
-  margin-left: 20px;
-}
-
 #rect {
   background-color: #C8D5B9;
-  width: 300px;
+  width: 450px;
   height: auto;
   border-radius: 20px;
   box-shadow: -1px 1px 3px rgb(173, 173, 173);
