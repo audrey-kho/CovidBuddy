@@ -137,6 +137,7 @@ button:hover, .button:hover {
   margin-left: 20px;
 }
 
+<<<<<<< HEAD
 .milli-dp {
   margin-top: 10px;
 }
@@ -147,6 +148,12 @@ button:hover, .button:hover {
 }
 
 .chat-bubble {
+=======
+#rect {
+  background-color: #C8D5B9;
+  width: 450px;
+  height: auto;
+>>>>>>> 7efb815857c7bb108d47700fdaea5b4afad77c5b
   border-radius: 20px;
   box-shadow: -1px 1px 3px rgb(156, 156, 156);
   margin-top: 10px;
