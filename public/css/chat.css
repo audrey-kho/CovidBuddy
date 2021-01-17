@@ -98,17 +98,27 @@ button:hover, .button:hover {
 }
 
 #content {
-  width: 850px;
+  width: 190px;
   margin-left: 20%;
   margin-right: 5%;
-  padding: 20px 40px 20px 50px;
+  padding: 20px 10px 20px 10px;
   background-color: white;
   border-radius: 20px;
   box-shadow: -1px 1px 5px rgb(173, 173, 173);
   margin-bottom: 20px;
   margin-right: 20px;
 }
-
+#content_chatbox {
+  width: 500px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px 5px 20px 5px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: -1px 1px 5px rgb(173, 173, 173);
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
 footer {
   margin-top: 100px;
   margin-bottom: 80px;
@@ -117,4 +127,48 @@ footer {
 footer p {
   opacity: 0.6;
   font-weight: 500;
+}
+
+.username {
+  font-size: 20px;
+  margin: 15px;
+}
+
+.profile-pic {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.card {
+  width: 500px;
+  height: auto;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: -1px 1px 5px rgb(173, 173, 173);
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#chatbox {
+  padding-top: 20px;
+  font-size: 20pt; 
+  margin-left: 20px;
+}
+
+#rect {
+  background-color: #C8D5B9;
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: -1px 1px 3px rgb(173, 173, 173);
+  margin-right: 20px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  margin-left: 5
 }
