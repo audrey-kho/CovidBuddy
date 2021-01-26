@@ -1,8 +1,11 @@
 # CovidBuddy
 A social networking and productivity web application that allows you to earn points towards donating to an organization highly impacted by the pandemic.
 
-## Figma Prototype
-[Click here](https://www.figma.com/proto/XJtOGbXnm0DWtOBVdmiIyC/hackathon-2021?node-id=3%3A12&scaling=scale-down-width) to view our website prototype!
+>:warning: **NOTE:**
+This web app uses **LiterallyCanvas**, an embedded drawing widget intended to function as a shared whiteboard for users to utilize in their work during video calls. Some of its packages and tools have become outdated and as a result, the drawing widget does not function on the deployed prototype. To view the prototype as intended, kindly `git clone` this repo and open the `index.html` file located in the `/public` folder.
+
+## Working Prototypes
+View our [Figma prototype](https://www.figma.com/proto/XJtOGbXnm0DWtOBVdmiIyC/hackathon-2021?node-id=3%3A12&scaling=scale-down-width) or our [deployed web app prototype](https://audrey-kho.github.io/CovidBuddy/public/index.html)
 
 ## Product Description:
 We are CovidBuddy, a web application seeking to help fund institutions at the center of the pandemic by encouraging social productivity. While brainstorming for the theme Hacking Forward, the idea of creating a platform to help keep days happier while still keeping progress with our pre-covid goals emerged. Thus was CovidBuddy created, in hopes of helping users stay productive but still keep in touch with loved ones.
